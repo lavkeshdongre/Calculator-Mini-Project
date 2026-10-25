@@ -1,13 +1,16 @@
 package Calci;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Trignomentric extends Setup{
+public class TringnomentricRadian extends Setup{
 	
-	public void trigno() throws InterruptedException {
+	public void trignoradian() throws InterruptedException {
 		openBrowser();
 		
+		driver.findElement(By.xpath("//input[@value=\"rad\"]")).click();
+		Thread.sleep(1000);
+		
+
 		driver.findElement(By.xpath("//span[text()='sin']")).click();
 		driver.findElement(By.xpath("//span[@onclick='r(8)']")).click();
 		driver.findElement(By.xpath("//*[@id='sciout']/tbody/tr[2]/td[2]/div/div[5]/span[4]")).click();
@@ -130,10 +133,43 @@ public class Trignomentric extends Setup{
                 // /x
                 driver.findElement(By.xpath("//span[@onclick=\"r('sqrt')\"]")).click();
                 driver.findElement(By.xpath("//span[@onclick=\"r(6)\"]")).click();
+                driver.findElement(By.xpath("//span[@onclick=\"r('=')\"]")).click();
                 
-			    driver.quit();
-			    
-			    
+                
+                //log
+                driver.findElement(By.xpath("//span[@onclick=\"r('log')\"]")).click();
+                driver.findElement(By.xpath("//span[@onclick=\"r(2)\"]")).click();
+                driver.findElement(By.xpath("//span[@onclick=\"r(0)\"]")).click();
+                driver.findElement(By.xpath("//span[@onclick=\"r('=')\"]")).click();
+                
+                //1/x
+                driver.findElement(By.xpath("//span[@onclick=\"r(9)\"]")).click();
+                driver.findElement(By.xpath("//span[@onclick=\"r('1/x')\"]")).click();
+                driver.findElement(By.xpath("//span[@onclick=\"r('+')\"]")).click();
+                driver.findElement(By.xpath("//span[@onclick=\"r(9)\"]")).click();
+                driver.findElement(By.xpath("//span[@onclick=\"r('1/x')\"]")).click();
+                driver.findElement(By.xpath("//span[@onclick=\"r('=')\"]")).click();
+                
+                
+                //%
+                driver.findElement(By.xpath("//span[@onclick=\"r(9)\"]")).click();
+                driver.findElement(By.xpath("//span[@onclick=\"r('pc')\"]")).click();
+                driver.findElement(By.xpath("//span[@onclick=\"r('=')\"]")).click();
+                
+                
+                //factorial
+                
+                driver.findElement(By.xpath("//span[@onclick=\"r(6)\"]")).click();
+                driver.findElement(By.xpath("//span[@onclick=\"r('n!')\"]")).click();
+                driver.findElement(By.xpath("//span[@onclick=\"r('=')\"]")).click();
+                
+                
+                Thread.sleep(2000);
+
+		driver.quit();
+		
 	}
+	
+	
 
 }

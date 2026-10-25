@@ -8,32 +8,37 @@ public class calci {
 		
 		
 	
-//		Addition add = new Addition();
-//		add.Add();
-//		System.out.println("Addition operation perform successfully");
-//		Thread.sleep(2000);
-//		
+		Addition add = new Addition();
+		add.Add();
+		System.out.println("Addition operation perform successfully");
+		Thread.sleep(2000);
+		
 		Subtraction sub = new Subtraction();
 		sub.Sub();
-//		
-//		System.out.println("Subtraction operation done ");
-//		Thread.sleep(2000);
-//	
-//		Multiplication m = new Multiplication();
-//		
-//		Division d = new Division();
-//		
-//		m.mul();
-//		System.out.println("Multiplication Operation  done ");.///
-//		Thread.sleep(2000);
-//		d.div();
-//		System.out.println("Division Operation will done");
-//		Thread.sleep(2000);
+		
+		System.out.println("Subtraction operation done ");
+		Thread.sleep(2000);
+	
+		Multiplication m = new Multiplication();
+	
+		Division d = new Division();
+		
+		m.mul();
+		System.out.println("Multiplication Operation  done ");
+		Thread.sleep(2000);
+		d.div();
+		System.out.println("Division Operation will done");
+     	Thread.sleep(2000);
 	
 		
-//		Trignomentric t = new Trignomentric();
-//		t.trigno();
-//		
+		TrignomentricDegree t = new TrignomentricDegree();
+		t.trigno();
+		System.out.println("Degree mode done");
+	
+		TringnomentricRadian r = new TringnomentricRadian();
+		r.trignoradian();
+		System.out.println("Degree mode done");
+		
 	}
 }
 
