@@ -15,5 +15,6 @@ public class Subtractionopration extends Setup {
 	    driver.findElement(By.xpath("//*[@id='sciout']/tbody/tr[2]/td[2]/div/div[5]/span[4]")).click();
 	    Thread.sleep(1000);
 	    driver.quit();
+	    driver.close();
  }
 }
