@@ -37,7 +37,7 @@ public class calci {
 	
 		TringnomentricRadian r = new TringnomentricRadian();
 		r.trignoradian();
-		System.out.println("Degree mode done");
+		System.out.println("Radian mode done");
 		
 	}
 }
