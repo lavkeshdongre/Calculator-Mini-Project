@@ -29,7 +29,7 @@ public class Calculator {
 		Thread.sleep(2000);
 //		
 		
-		Trignomentric t = new Trignomentric();
+		Trignomentricopration t = new Trignomentricopration();
 		t.trigno();
 		
 	}
