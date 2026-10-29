@@ -3,6 +3,8 @@ package Calci;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import Calculator_Automate.Setup;
+
 public class Trignomentricopration extends Setup{
 	
 	public void trigno() throws InterruptedException {

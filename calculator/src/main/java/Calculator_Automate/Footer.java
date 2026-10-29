@@ -1,4 +1,4 @@
-package Calci;
+package Calculator_Automate;
 
 import org.openqa.selenium.By;
 

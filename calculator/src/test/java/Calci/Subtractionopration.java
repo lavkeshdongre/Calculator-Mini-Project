@@ -3,6 +3,8 @@ package Calci;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
+import Calculator_Automate.Setup;
+
 public class Subtractionopration extends Setup {
 	@Test
  public void Sub() throws InterruptedException {

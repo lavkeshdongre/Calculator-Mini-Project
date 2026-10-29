@@ -4,6 +4,8 @@ package Calci;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
+import Calculator_Automate.Setup;
+
 
 public class MultiplicationOpration extends Setup{
 	@Test

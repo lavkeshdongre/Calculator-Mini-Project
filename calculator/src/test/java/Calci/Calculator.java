@@ -2,6 +2,11 @@ package Calci;
 
 import org.testng.annotations.Test;
 
+import Calculator_Automate.Addition;
+import Calculator_Automate.Division;
+import Calculator_Automate.Multiplication;
+import Calculator_Automate.Subtraction;
+
 @Test
 public class Calculator {
 	public void main() throws InterruptedException {
