@@ -7,8 +7,7 @@ import org.testng.annotations.Test;
 
 public class Multiplication extends Setup{
 	
-	@Test
-	
+	@Test 
 	public void mul() throws InterruptedException {
 		    openBrowser();
 		    driver.findElement(By.xpath("//span[@onclick='r(6)']")).click();

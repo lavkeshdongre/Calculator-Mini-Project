@@ -8,7 +8,7 @@ public class Subtraction extends Setup {
 	@Test
  public void Sub() throws InterruptedException {
 	 
-	    openBrowser();
+	   openBrowser();
 	    driver.findElement(By.xpath("//*[@id=\"sciout\"]/tbody/tr[2]/td[2]/div/div[3]/span[1]")).click();
 	    WebElement Subbtract= driver.findElement(By.xpath("//*[@id=\"sciout\"]/tbody/tr[2]/td[2]/div/div[4]/span[1]"));
 	    Subbtract.click();

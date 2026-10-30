@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Calci.calci">
+      <class name="Calculator_Automate.calci">
         <methods>
           <include name="main"/>
         </methods>
-      </class> <!-- Calci.calci -->
+      </class> <!-- Calculator_Automate.calci -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 
 public class Othe_cal extends Setup {
 	@Test
-	
 	public void others_calculator() throws InterruptedException {
 		openBrowser();
 		

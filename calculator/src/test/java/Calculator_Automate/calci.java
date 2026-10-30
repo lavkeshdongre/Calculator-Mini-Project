@@ -2,12 +2,13 @@ package Calculator_Automate;
 
 import org.testng.annotations.Test;
 
-@Test
+
 public class calci {
-	public  void main () throws InterruptedException {
+	@Test
+	public void main() throws InterruptedException {
 		
 		
-	
+	    
 		Addition add = new Addition();
 		add.Add();
 		System.out.println("Addition operation perform successfully");
@@ -57,10 +58,10 @@ public class calci {
 		System.out.println("All operation done other calculator");
 		
 		
-	 Footer Drop =  new Footer();
-	 Drop.Droplink();
-	 System.out.println("Footer link open successsfully");
-//		
+	     Footer Drop =  new Footer();
+	    Drop.Droplink();
+	    System.out.println("Footer link open successsfully");
+	
 		
 		
 		

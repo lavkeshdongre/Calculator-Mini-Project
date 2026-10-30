@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class Division extends Setup {
+	
 @Test
-
 public void div() throws InterruptedException {
 	
 	    openBrowser();
